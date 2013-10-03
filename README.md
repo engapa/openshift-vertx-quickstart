@@ -1,4 +1,5 @@
 OpenShift - Vert.x QuickStart
+=============================
 ***
 
 This git repository helps you get up and running quickly with a [Vert.x](https://github.com/purplefox/vert.x) 1.3.1 installation on OpenShift.
