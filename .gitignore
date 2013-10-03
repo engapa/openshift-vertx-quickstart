@@ -1,0 +1,13 @@
+#Metainfo files
+/.*
+.*
+*~
+!.git*
+!.openshift/
+
+#Binaries
+target/
+bin/
+generated/
+coverage
+test/
