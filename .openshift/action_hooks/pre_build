@@ -1,12 +1,6 @@
 #!/bin/bash
 
-VERTX_VERSION="1.3.1.final"
-
-PATH="${OPENSHIFT_DATA_DIR}vert.x-${VERTX_VERSION}/bin:$PATH"
-
-SERVER_FILE="app.js"
-
-. "${OPENSHIFT_REPO_DIR}.openshift/config.example"
+. "${OPENSHIFT_REPO_DIR}.openshift/config/vertx.conf"
 
 cd $OPENSHIFT_DATA_DIR
 
@@ -22,8 +16,8 @@ else
 
 	echo "Installing Vert.x $VERTX_VERSION"
 
-  echo " Downloading http://vertx.io/downloads/vert.x-${VERTX_VERSION}.tar.gz"
-	curl --insecure -o vert.x-${VERTX_VERSION}.tar.gz "http://vertx.io/downloads/vert.x-${VERTX_VERSION}.tar.gz"
+  echo "Downloading ${VERTX_DOWNLOAD_URL_PREFIX}${VERTX_VERSION}.tar.gz"
+	curl --insecure -o vert.x-${VERTX_VERSION}.tar.gz "${VERTX_DOWNLOAD_URL_PREFIX}${VERTX_VERSION}.tar.gz"
 	tar -xf vert.x-${VERTX_VERSION}.tar.gz
 	rm vert.x-${VERTX_VERSION}.tar.gz
 fi
