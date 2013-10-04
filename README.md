@@ -17,13 +17,13 @@ Get Vert.x running
 Grab this quickstart project and make it work for you!
 
     cd vertx
-    git remote add upstream -m master http://pdihub.com/egp30/openshift-vertx-quickstart.git
+    git remote add upstream -m master http://github.com/engapa/openshift-vertx-quickstart.git
     git pull -s recursive -X theirs upstream master
     git push
 
 That's it, you can now checkout your Vert.x at:
 
-    http://vertx-$yournamespace.rhcloud.com
+    http://vertx-$yournamespace.ose.hi.inet
 
 
 Forking this Quickstart to use a newer Vertx version
