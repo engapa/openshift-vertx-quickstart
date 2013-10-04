@@ -1,5 +1,4 @@
-OpenShift - Vert.x QuickStart  [![Build Status](https://travis-ci.org/engapa/openshift-vertx-quickstart.png)](https://travis-ci.org/engapa/openshift-vertx-quickstart)
-=============================
+#OpenShift - Vert.x QuickStart  [![Build Status](https://travis-ci.org/engapa/openshift-vertx-quickstart.png)](https://travis-ci.org/engapa/openshift-vertx-quickstart)
 ***
 
 This git repository helps you get up and running quickly with a [Vert.x](https://github.com/purplefox/vert.x) 2.0.1 installation on OpenShift.
