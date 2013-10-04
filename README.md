@@ -2,7 +2,7 @@ OpenShift - Vert.x QuickStart  [![Build Status](https://travis-ci.org/engapa/ope
 =============================
 ***
 
-This git repository helps you get up and running quickly with a [Vert.x](https://github.com/purplefox/vert.x) 1.3.1 installation on OpenShift.
+This git repository helps you get up and running quickly with a [Vert.x](https://github.com/purplefox/vert.x) 2.0.1 installation on OpenShift.
 
 Create a Do It Yourself (DIY) app on OpenShift
 ----------------------------------------------
