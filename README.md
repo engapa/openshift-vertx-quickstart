@@ -1,4 +1,4 @@
-OpenShift - Vert.x QuickStart
+OpenShift - Vert.x QuickStart  [![Build Status](https://travis-ci.org/engapa/openshift-vertx-quickstart.png)](https://travis-ci.org/engapa/openshift-vertx-quickstart)
 =============================
 ***
 
