@@ -8,8 +8,8 @@ var console = require('vertx/console');
 
 console.log("Loading env variables ...");
 
-var port = parseInt(container.env['OPENSHIFT_DIY_PORT']);
-var host = container.env['OPENSHIFT_DIY_IP'];
+var port = parseInt(vertx.env['OPENSHIFT_DIY_PORT']);
+var host = vertx.env['OPENSHIFT_DIY_IP'];
 
 console.log("OPENSHIFT_DIY_PORT: " + port);
 console.log("OPENSHIFT_DIY_IP: " + host);
